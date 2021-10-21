@@ -1,4 +1,30 @@
 /*****************************************************************************/
-/* Some tablets and larger (768px) */
+/* Responsive Design for Phone Screens (576px and smaller) */
 /*****************************************************************************/
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 576px) {
+
+  main {
+    padding: 10px 15px 10px 10px;
+  }
+
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  nav li a {
+    font-size: 1rem;
+  }
+
+  #headShot {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }
+}
