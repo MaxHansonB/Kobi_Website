@@ -8,12 +8,13 @@
   }
 
   nav ul {
-    margin-left: 0;
+    margin-left: 2px;
     padding-left: 0;
   }
 
   nav li a {
     font-size: 1rem;
+    margin: 0 0 0 2px;
   }
 
   #headShot {
@@ -33,10 +34,4 @@
     visibility: hidden;
     height: 300px;
   }
-}
-
-@media only screen and (max-width: 380px) {
-  nav li a {
-    margin: 0 0 0 2px;
-    font-size: 0.85rem;
 }
