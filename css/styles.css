@@ -8,8 +8,12 @@ main {
   padding: 10px 80px 10px 40px;
 }
 
-h1, h2 {
+h1 {
   font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
 }
 
 p {
