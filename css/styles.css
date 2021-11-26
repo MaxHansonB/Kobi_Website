@@ -82,10 +82,6 @@ nav li a:hover {
 }
 
 /************************ INDEX.HTML STYLING ************************/
-#firstPageName {
-  opacity: 0;
-}
-
 #headShot {
   float: left;
   height: 350px;
